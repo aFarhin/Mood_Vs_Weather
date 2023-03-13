@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(207, 165, 30);
+}
+
+.main {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(85, 109, 175);
+    width: auto;
+    height: auto;
+    padding: 20px;
+    border: 2px solid black;
+    box-shadow: 1px 1px 2px 2px rgb(55, 41, 3);
+
+
+}
+
+
+select {
+    margin-top: 10px;
+    width: 100px;
+    background-color: rgb(174, 159, 159);
+    box-shadow: 1px 1px 2px 2px black;
+    text-align: center;
+    padding: 3px;
+}
+
+option {
+    background-color: rgb(245, 245, 239);
+    color: black;
+}
+
+h2 {
+    background-color: rgb(17, 43, 114);
+    border: 2px solid;
+    padding: 9px;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 2px 2px rgb(56, 47, 47);
+    color: rgb(215, 200, 200);
+    text-shadow: 1px 1px 2px;
+    border-radius: 5px;
+
+
+}
+
+.first {
+    padding: 20px;
+
+
+}
+
+.second {
+    padding: 20px
+}
+
+label {
+    background-color: rgb(148, 161, 205);
+    border-radius: 10px;
+    padding: 5px;
+    margin-right: 9px;
+    box-shadow: 1px 1px 2px 2px black;
+    font-weight: 580;
+}
+
+button {
+    border-radius: 5px;
+    width: 80px;
+    height: 20px;
+    background-color: rgb(128, 177, 196);
+    border: 2px solid rgb(145, 145, 171);
+    box-shadow: 1px 1px 2px 2px black;
+    margin-bottom: 10px;
+}
+
+#result {
+    width: 200px;
+    border-radius: 5px;
+    border: 2px solid black;
+    padding: 8px;
+    background-color: rgb(218, 212, 212);
+    color: black;
+    font-weight: bold;
+    margin-top: 10px;
+    box-shadow: 1px 1px 2px 2px black;
+}
+
+#image {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
